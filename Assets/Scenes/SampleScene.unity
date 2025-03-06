@@ -2270,8 +2270,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 855086569}
-        m_TargetAssemblyTypeName: OverallSlider, Assembly-CSharp
-        m_MethodName: SetOverallVolume
+        m_TargetAssemblyTypeName: SliderVolume, Assembly-CSharp
+        m_MethodName: SetVolume
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2290,11 +2290,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 855086566}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 924a55c53cf8c964081a1ab4a37aadba, type: 3}
+  m_Script: {fileID: 11500000, guid: b7a2b28be63a0e84a9c9d59401a4820e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _mixerGroup: {fileID: -809192222392816689, guid: 8249e4c322b39294c94593ee2facb186, type: 2}
   _slider: {fileID: 855086568}
+  _name: OverallVolume
 --- !u!1 &868844086
 GameObject:
   m_ObjectHideFlags: 0
@@ -3589,8 +3590,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1438562737}
-        m_TargetAssemblyTypeName: BackgroundSlider, Assembly-CSharp
-        m_MethodName: SetBackgroundVolume
+        m_TargetAssemblyTypeName: SliderVolume, Assembly-CSharp
+        m_MethodName: SetVolume
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3609,11 +3610,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1438562734}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87ee4c3a38a041540b63fba2e504d8ca, type: 3}
+  m_Script: {fileID: 11500000, guid: b7a2b28be63a0e84a9c9d59401a4820e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _mixerGroup: {fileID: 1712089931912619750, guid: 8249e4c322b39294c94593ee2facb186, type: 2}
   _slider: {fileID: 1438562736}
+  _name: BackgroundVolume
 --- !u!1 &1581246286
 GameObject:
   m_ObjectHideFlags: 0
@@ -3983,8 +3985,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1680190901}
-        m_TargetAssemblyTypeName: ButtonSlider, Assembly-CSharp
-        m_MethodName: SetButtonVolume
+        m_TargetAssemblyTypeName: SliderVolume, Assembly-CSharp
+        m_MethodName: SetVolume
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4003,11 +4005,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1680190898}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d4beca161719a9d4ba8c34e5c81ee7e9, type: 3}
+  m_Script: {fileID: 11500000, guid: b7a2b28be63a0e84a9c9d59401a4820e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _mixerGroup: {fileID: 4925370455698159794, guid: 8249e4c322b39294c94593ee2facb186, type: 2}
   _slider: {fileID: 1680190900}
+  _name: ButtonVolume
 --- !u!1 &1698268891
 GameObject:
   m_ObjectHideFlags: 0
